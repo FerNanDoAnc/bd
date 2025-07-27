@@ -11,26 +11,22 @@ PowerShell (en Windows, o PowerShell Core en otros sistemas)
 
 ## 🚀 Instalación y Ejecución
 
-1. Descargar imagen de MySQL
+### 1. Descargar imagen de MySQL
 docker pull mysql
 
-2. Levanta el contenedor:
+### 2. Levanta el contenedor:
 docker-compose up -d
 
-3. Verificar contenedor en ejecución
+### 3. Verificar contenedor en ejecución
 docker ps
 
-4. Ejecutar scripts SQL de inicialización
+### 4. Ejecutar scripts SQL de inicialización
 .\setup-db.ps1
 
-5. Configura las variables de entorno:
+#### 5. Configura las variables de entorno:
    .env.example
 
-🧪 Verificar conexión
+### 6.🧪 Verificar conexión
 Puedes usar alguna herramienta como:
-
-DBeaver
-
-MySQL Workbench
-
-CLI:
+   DBeaver
+   MySQL Workbench
